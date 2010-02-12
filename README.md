@@ -19,7 +19,7 @@ Include it in your script
 
     require_once 'library/ZendX/Log/Writer/Nodelog.php';
     
-Log an event to the Node_log server
+Log an event to the Node_log server!
 
     $writer = new ZendX_Log_Writer_Nodelog('localhost', '8003');
     $logger = new Zend_Log($writer);
